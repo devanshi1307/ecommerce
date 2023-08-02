@@ -25,6 +25,8 @@ class product extends Model
         'trending',
         'electronics',
         'Stationary',
+        'accessories',
+        'homedecore',
         'status',
         'meta_title',
         'meta_keyword',

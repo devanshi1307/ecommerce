@@ -108,14 +108,14 @@
                             <a class="nav-link" href="{{url('/stationary')}}">Stationary</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Accessories</a>
+                            <a class="nav-link" href="{{url('/accessories')}}">Accessories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="{{url('/homedecoration')}}">Home Decore</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Appliances</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>

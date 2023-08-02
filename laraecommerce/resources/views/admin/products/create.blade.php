@@ -148,6 +148,18 @@
                         </div>
                         <div class="col-md-4">
                             <div class="mb-3">
+                                <label>accessories</label>
+                                <input type="checkbox" name="accessories"style="width: 20px; height:20px;" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <label>homedecore</label>
+                                <input type="checkbox" name="homedecore"style="width: 20px; height:20px;" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3">
                                 <label>Status</label>
                                 <input type="checkbox" name="status" style="width: 20px; height:20px;" />
                             </div>

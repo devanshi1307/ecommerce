@@ -28,6 +28,8 @@ return new class extends Migration
             $table->tinyInteger('trending')->default('0')->comment('1=trending, 0=not-trending');
             $table->tinyInteger('electronics')->default('0')->comment('1=selected, 0=not-selected');
             $table->tinyInteger('Stationary')->default('0')->comment('1=Stationary, 0=not-in-Stationary');
+            $table->tinyInteger('accessories')->default('1')->comment('1=accessories, 0=not-a-accessories');
+            $table->tinyInteger('homedecore')->default('1')->comment('1=homedecore, 0=not-a-homedecore');
 
             $table->tinyInteger('status')->default('0')->comment('1=hidden, 0=visible');
 

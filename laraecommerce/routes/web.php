@@ -27,6 +27,8 @@ Route::get('/new-arrivals',[App\Http\Controllers\Frontend\FrontendController::cl
 Route::get('/search', [App\Http\Controllers\Frontend\FrontendController::class,'searchProducts']);
 Route::get('/electronics',[App\Http\Controllers\Frontend\FrontendController::class,'electronics']);
 Route::get('/stationary',[App\Http\Controllers\Frontend\FrontendController::class,'stationaryProducts']);
+Route::get('/accessories',[App\Http\Controllers\Frontend\FrontendController::class,'accessories']);
+Route::get('/homedecoration',[App\Http\Controllers\Frontend\FrontendController::class,'homeDecoration']);
 
 
 

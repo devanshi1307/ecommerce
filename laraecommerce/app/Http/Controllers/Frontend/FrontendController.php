@@ -95,4 +95,16 @@ class FrontendController extends Controller
         $stationaryproducts = Product::where('Stationary','1')->latest()->get();
         return view('frontend.pages.stationary', compact('stationaryproducts'));
     }
+
+    public function accessories()
+    {
+        $accessories = Product::where('accessories','1')->latest()->get();
+        return view('frontend.pages.accessories', compact('accessories'));
+    }
+
+    public function homeDecoration()
+    { 
+        $homedecor = Product::where('homedecore','1')->latest()->get();
+        return view('frontend.pages.homedecoration',compact('homedecor'));
+    }
 }
